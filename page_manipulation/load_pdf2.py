@@ -29,4 +29,4 @@ def convert_pdf_to_images(pdf_path):
         # page.save(image_name, 'PNG')
     return img_list
 
-print(convert_pdf_to_images('D:\Tasnim Proj\Tasnim Proj\python-pdf-editor-main\python-pdf-editor-main\khanki.pdf', 'D:\Tasnim Proj\Tasnim Proj\python-pdf-editor-main\python-pdf-editor-main\page_images_outputs'))
+# print(convert_pdf_to_images('D:\Tasnim Proj\Tasnim Proj\python-pdf-editor-main\python-pdf-editor-main\khanki.pdf', 'D:\Tasnim Proj\Tasnim Proj\python-pdf-editor-main\python-pdf-editor-main\page_images_outputs'))

@@ -52,11 +52,11 @@ def add_image_watermark(image_path, watermark_path, alpha):
 
 
 
-# # Use the function like this:
-# watermarked = add_image_watermark('C:/Users/Mashruk Anim/Desktop/func/input.png', 'C:/Users/Mashruk Anim/Desktop/func/watermark.png', 0.3)
+# Use the function like this:
+watermarked = add_image_watermark('C:/Users/ashra/Desktop/Tasnim Proj/python-pdf-editor-main/python-pdf-editor-main/input.png', 'C:/Users/ashra/Desktop/Tasnim Proj/python-pdf-editor-main/python-pdf-editor-main/watermark.png', 0.3)
 
-# # To display the watermarked image
-# cv2.imshow('Image', watermarked)
-# cv2.imwrite('output.jpg', watermarked)
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
+# To display the watermarked image
+cv2.imshow('Image', watermarked)
+cv2.imwrite('C:/Users/ashra/Desktop/Tasnim Proj/python-pdf-editor-main/python-pdf-editor-main/pdf_manipulation/output2.jpg', watermarked)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
